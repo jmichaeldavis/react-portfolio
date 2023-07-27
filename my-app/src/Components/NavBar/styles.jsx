@@ -2,27 +2,26 @@ import styled from 'styled-components';
 
 export const NavBarContainer = styled.div`
 width: 100%;
-height: 5rem;
+height: 7rem;
 display: flex
 justify-content: space-around;
 flex-direction: column;
 align-items: center;
+background-color: white;
 `
 
 export const NavBarOptions = styled.button`
-flex: 1 1 auto;
-margin: 10px;
-padding: 15px;
-font-size: 1rem;
-text-align: center;
-text-transform: uppercase;
-transition: 0.5s;
-background-size: 200% auto;
 color: white;
-box-shadow: 0 0 20px #eee;
-border-radius: 10px;
-
+background-color: black;
+font-size: large;
+font-weight: bold;
+padding: 1rem 1rem 1rem 1rem;
+border-radius: 2rem;
+margin: 1rem 1rem 1rem 1rem;
+box-sizing: border-box;
 &:hover {
-background-position: right center;}
-background-image: linear-gradient(to right, #f6d365 0%, #fda085 51%, #f6d365 100%);
+color: black;
+background-color: white;
+border: 1rem solid inside black;
+}
 `

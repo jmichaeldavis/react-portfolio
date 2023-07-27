@@ -1,4 +1,4 @@
-import { AboutMeContainer, AboutMeDescription } from "./styles"
+import { AboutMeContainer, AboutMeDescription, AboutMeImage } from "./styles"
 
 
 export const AboutMe = () => {
