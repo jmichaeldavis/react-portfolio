@@ -5,11 +5,12 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 export const ProjectContainer = styled.div`
   display: flex;
   width: 100%;
-  height: 75rem;
+  height: 80rem;
   align-items: center;
   justify-content: center;
   flex-direction: column;
   background-color: black;
+  margin-bottom: 7rem;
 `;
 
 export const ProjectBox = styled.div`
@@ -33,13 +34,14 @@ export const ProjectTitle = styled.div`
   font-size: 20px;
   color: black;
   padding: 1rem;
+  font-weight: 800;
 `;
 
 export const ProjectImage = styled.img`
-  width: 50%;
+
 `;
 
-export const DeployedLinkButton = styled.button`
+export const DeployedLinkButton = styled.a`
   color: white;
   background-color: black;
   font-size: large;
@@ -47,6 +49,13 @@ export const DeployedLinkButton = styled.button`
   padding: 1rem 1rem 1rem 1rem;
   border-radius: 2rem;
   box-sizing: border-box;
+  width: 8rem;
+  display: flex;
+  text-decoration: none;
+  margin: 0.5rem;
+  align-items: center;
+  justify-content: center;
+  height: 2.5rem;
   &:hover {
   color: black;
   background-color: white;

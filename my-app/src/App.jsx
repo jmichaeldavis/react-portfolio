@@ -38,7 +38,7 @@ function App() {
       displayName: "Cabinet Keepers",
       repositoryLink: "https://github.com/AegeanGrey/team-waffles",
       gitHubPagesLink: "https://aegeangrey.github.io/team-waffles",
-      backgroundImageSource: "../public/images/cabinet-keeper.png",
+      backgroundImageSource: "my-app/public/images/cabinet-keeper.png",
     },
     {
       key: "project-3",
